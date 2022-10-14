@@ -1,6 +1,6 @@
-import giticon from "./githubicon.png";
-import logo from "./logo.svg";
-import odin from "./odin-lined.png";
+import giticon from "../Images/githubicon.png";
+import logo from "../Images/logo.svg";
+import odin from "../Images/odin-lined.png";
 function AllLinks() {
   return (
     <div className="links">
