@@ -1,3 +1,13 @@
+:root {
+  --debug: 1px solid red;
+  background-color: #3b3b3b;
+}
+
+@font-face {
+  font-family: RaleWay;
+  src: url("/src/Raleway-VariableFont_wght.ttf");
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +45,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+
+#clockDisplay{
+  display: flex;
+  justify-content: center;
+  font-family: "RaleWay";
+  font-size: 15rem;
+  text-align:left;
+  /* letter-spacing: .3ch; */
+  float:right;
+  padding: 5rem;
+  color: #474646;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
 }
