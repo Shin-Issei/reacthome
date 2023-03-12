@@ -28,12 +28,11 @@ function AllLinks() {
 
 function Link(props) {
   return (
-    <div className="link-icombo">
+    <div>
       <a href={props.Linkurl} id={props.linkID}>
-        {props.linkText}
-      </a>
-      <a href={props.Linkurl} id={props.linkID}>
-        <img src={props.src} alt="None" width="40vw"></img>
+      <button className="link-icombo">
+        <img src={props.src} alt="None"></img>
+      </button>
       </a>
     </div>
   );
